@@ -1,0 +1,101 @@
+order_id,customer_id,customer_name,product,quantity,price,order_date,status
+ORD-0001,C002,James Lee,Hybridge Lite Jacket,1,681.4,2025-01-26,Shipped
+ORD-0002,C002,James Lee,Lodge Hoody,1,538.74,2025-03-31,Cancelled
+ORD-0003,C004,Noah Brown,Expedition Parka,3,758.49,2025-08-27,Cancelled
+ORD-0004,C009,Sophia Taylor,Timber Shell Jacket,3,861.65,2026-03-06,Confirmed
+ORD-0005,C001,Alice Martin,Freestyle Vest,2,702.12,2025-06-13,Delivered
+ORD-0006,C006,Liam Chen,Lodge Hoody,1,966.67,2025-04-15,Processing
+ORD-0007,C006,Liam Chen,Timber Shell Jacket,3,662.27,2025-09-28,Processing
+ORD-0008,C007,Olivia Davis,Snow Mantra Parka,3,1304.08,2025-03-22,Cancelled
+ORD-0009,C006,Liam Chen,Expedition Parka,3,796.27,2025-07-16,Processing
+ORD-0010,C005,Emma Wilson,Langford Parka,2,861.37,2025-03-23,Confirmed
+ORD-0011,C006,Liam Chen,Freestyle Vest,1,1371.23,2025-06-16,Shipped
+ORD-0012,C002,James Lee,Hybridge Lite Jacket,1,1100.94,2025-06-25,Cancelled
+ORD-0013,C005,Emma Wilson,Expedition Parka,1,1568.34,2025-08-13,Shipped
+ORD-0014,C006,Liam Chen,Langford Parka,1,1687.08,2026-02-15,Shipped
+ORD-0015,C010,Lucas Anderson,Timber Shell Jacket,2,1650.09,2025-11-19,Confirmed
+ORD-0016,C008,Ethan Moore,Chilliwack Bomber,1,1468.49,2025-05-27,Shipped
+ORD-0017,C009,Sophia Taylor,Lodge Hoody,3,1019.22,2025-09-27,Cancelled
+ORD-0018,C004,Noah Brown,Timber Shell Jacket,1,1482.52,2025-05-22,Cancelled
+ORD-0019,C002,James Lee,Lodge Hoody,3,582.59,2025-06-06,Confirmed
+ORD-0020,C007,Olivia Davis,Snow Mantra Parka,3,1619.01,2026-04-25,Cancelled
+ORD-0021,C001,Alice Martin,Snow Mantra Parka,3,942.23,2025-04-28,Cancelled
+ORD-0022,C005,Emma Wilson,Timber Shell Jacket,1,1739.96,2026-03-22,Confirmed
+ORD-0023,C005,Emma Wilson,Langford Parka,3,887.98,2026-05-28,Confirmed
+ORD-0024,C009,Sophia Taylor,Freestyle Vest,1,1201.19,2025-07-23,Confirmed
+ORD-0025,C009,Sophia Taylor,Freestyle Vest,2,525.32,2025-01-01,Cancelled
+ORD-0026,C006,Liam Chen,Expedition Parka,1,1641.41,2025-11-11,Confirmed
+ORD-0027,C002,James Lee,Langford Parka,3,1495.58,2025-03-29,Delivered
+ORD-0028,C003,Priya Sharma,Chilliwack Bomber,2,1185.98,2026-05-02,Cancelled
+ORD-0029,C010,Lucas Anderson,Hybridge Lite Jacket,3,905.23,2026-03-10,Confirmed
+ORD-0030,C006,Liam Chen,Timber Shell Jacket,1,822.28,2026-03-25,Cancelled
+ORD-0031,C002,James Lee,Hybridge Lite Jacket,3,786.28,2025-12-13,Processing
+ORD-0032,C002,James Lee,Langford Parka,1,1617.53,2025-03-02,Confirmed
+ORD-0033,C002,James Lee,Snow Mantra Parka,3,1131.04,2026-06-11,Confirmed
+ORD-0034,C009,Sophia Taylor,Timber Shell Jacket,1,1520.01,2025-05-16,Cancelled
+ORD-0035,C007,Olivia Davis,Langford Parka,3,1060.37,2025-07-14,Processing
+ORD-0036,C007,Olivia Davis,Expedition Parka,3,1349.49,2026-02-25,Delivered
+ORD-0037,C002,James Lee,Freestyle Vest,1,823.25,2025-03-04,Delivered
+ORD-0038,C004,Noah Brown,Lodge Hoody,1,862.11,2026-04-05,Confirmed
+ORD-0039,C004,Noah Brown,Langford Parka,1,1347.79,2025-03-19,Delivered
+ORD-0040,C009,Sophia Taylor,Hybridge Lite Jacket,1,1028.34,2025-01-16,Processing
+ORD-0041,C008,Ethan Moore,Expedition Parka,1,992.67,2025-08-07,Delivered
+ORD-0042,C007,Olivia Davis,Snow Mantra Parka,2,1405.57,2025-09-29,Delivered
+ORD-0043,C009,Sophia Taylor,Hybridge Lite Jacket,2,783.01,2026-05-14,Confirmed
+ORD-0044,C001,Alice Martin,Expedition Parka,1,1259.43,2025-03-04,Shipped
+ORD-0045,C009,Sophia Taylor,Expedition Parka,3,604.14,2026-06-28,Confirmed
+ORD-0046,C003,Priya Sharma,Langford Parka,3,1620.36,2025-03-12,Cancelled
+ORD-0047,C007,Olivia Davis,Hybridge Lite Jacket,3,1272.87,2025-05-03,Cancelled
+ORD-0048,C010,Lucas Anderson,Freestyle Vest,2,765.54,2025-03-25,Delivered
+ORD-0049,C006,Liam Chen,Lodge Hoody,1,1373.2,2025-09-02,Shipped
+ORD-0050,C005,Emma Wilson,Langford Parka,1,1095.77,2026-04-14,Shipped
+ORD-0051,C010,Lucas Anderson,Hybridge Lite Jacket,3,844.76,2025-04-13,Processing
+ORD-0052,C006,Liam Chen,Freestyle Vest,2,705.07,2025-03-12,Confirmed
+ORD-0053,C009,Sophia Taylor,Expedition Parka,3,1562.24,2025-11-06,Cancelled
+ORD-0054,C005,Emma Wilson,Snow Mantra Parka,1,1656.63,2025-04-17,Confirmed
+ORD-0055,C009,Sophia Taylor,Snow Mantra Parka,3,773.82,2025-06-09,Shipped
+ORD-0056,C006,Liam Chen,Timber Shell Jacket,2,1676.94,2025-07-28,Shipped
+ORD-0057,C001,Alice Martin,Snow Mantra Parka,1,504.61,2025-04-05,Delivered
+ORD-0058,C003,Priya Sharma,Timber Shell Jacket,3,1417.37,2025-09-26,Confirmed
+ORD-0059,C009,Sophia Taylor,Langford Parka,3,1675.11,2025-01-10,Processing
+ORD-0060,C009,Sophia Taylor,Chilliwack Bomber,2,665.68,2025-02-06,Shipped
+ORD-0061,C005,Emma Wilson,Freestyle Vest,1,1386.69,2026-01-09,Processing
+ORD-0062,C002,James Lee,Lodge Hoody,3,1474.32,2025-12-29,Cancelled
+ORD-0063,C004,Noah Brown,Lodge Hoody,1,733.17,2025-06-16,Confirmed
+ORD-0064,C006,Liam Chen,Snow Mantra Parka,1,1523.59,2026-02-26,Confirmed
+ORD-0065,C002,James Lee,Timber Shell Jacket,1,759.44,2026-01-27,Processing
+ORD-0066,C008,Ethan Moore,Hybridge Lite Jacket,1,530.76,2025-12-25,Shipped
+ORD-0067,C004,Noah Brown,Snow Mantra Parka,1,1756.96,2026-02-13,Shipped
+ORD-0068,C005,Emma Wilson,Lodge Hoody,3,1775.49,2025-12-26,Cancelled
+ORD-0069,C009,Sophia Taylor,Langford Parka,2,732.14,2025-12-06,Processing
+ORD-0070,C005,Emma Wilson,Lodge Hoody,2,1447.11,2025-02-09,Processing
+ORD-0071,C006,Liam Chen,Langford Parka,2,1669.36,2026-03-23,Cancelled
+ORD-0072,C004,Noah Brown,Lodge Hoody,1,1175.9,2025-09-18,Processing
+ORD-0073,C009,Sophia Taylor,Lodge Hoody,1,1733.54,2025-07-21,Shipped
+ORD-0074,C006,Liam Chen,Snow Mantra Parka,3,902.07,2025-11-18,Processing
+ORD-0075,C007,Olivia Davis,Snow Mantra Parka,3,665.47,2025-12-01,Delivered
+ORD-0076,C007,Olivia Davis,Snow Mantra Parka,2,1212.32,2026-01-24,Confirmed
+ORD-0077,C001,Alice Martin,Hybridge Lite Jacket,2,1521.49,2025-11-08,Shipped
+ORD-0078,C010,Lucas Anderson,Timber Shell Jacket,2,1378.32,2025-11-26,Delivered
+ORD-0079,C009,Sophia Taylor,Langford Parka,2,1170.09,2026-04-30,Confirmed
+ORD-0080,C010,Lucas Anderson,Hybridge Lite Jacket,3,903.55,2025-12-10,Processing
+ORD-0081,C004,Noah Brown,Expedition Parka,1,1779.12,2025-05-31,Processing
+ORD-0082,C010,Lucas Anderson,Lodge Hoody,3,1248.37,2025-03-16,Delivered
+ORD-0083,C007,Olivia Davis,Hybridge Lite Jacket,1,1352.88,2026-05-22,Delivered
+ORD-0084,C001,Alice Martin,Hybridge Lite Jacket,1,1545.34,2025-04-20,Delivered
+ORD-0085,C009,Sophia Taylor,Hybridge Lite Jacket,1,1093.4,2026-04-21,Processing
+ORD-0086,C008,Ethan Moore,Freestyle Vest,2,1296.45,2026-06-28,Cancelled
+ORD-0087,C009,Sophia Taylor,Timber Shell Jacket,1,1466.75,2026-03-13,Cancelled
+ORD-0088,C008,Ethan Moore,Hybridge Lite Jacket,3,860.5,2026-04-06,Shipped
+ORD-0089,C009,Sophia Taylor,Snow Mantra Parka,2,600.73,2026-05-12,Confirmed
+ORD-0090,C005,Emma Wilson,Freestyle Vest,2,1660.93,2025-08-29,Shipped
+ORD-0091,C002,James Lee,Hybridge Lite Jacket,2,1402.13,2025-05-22,Confirmed
+ORD-0092,C004,Noah Brown,Lodge Hoody,2,1205.39,2025-03-07,Delivered
+ORD-0093,C007,Olivia Davis,Lodge Hoody,2,1676.29,2025-03-05,Confirmed
+ORD-0094,C010,Lucas Anderson,Lodge Hoody,2,507.66,2025-01-21,Cancelled
+ORD-0095,C006,Liam Chen,Lodge Hoody,3,1471.77,2025-11-02,Delivered
+ORD-0096,C009,Sophia Taylor,Hybridge Lite Jacket,2,1066.59,2025-08-14,Delivered
+ORD-0097,C001,Alice Martin,Lodge Hoody,3,714.56,2026-02-03,Shipped
+ORD-0098,C008,Ethan Moore,Expedition Parka,2,1269.46,2025-05-11,Cancelled
+ORD-0099,C001,Alice Martin,Chilliwack Bomber,2,736.25,2025-03-27,Delivered
+ORD-0100,C005,Emma Wilson,Hybridge Lite Jacket,2,924.9,2026-01-24,Shipped
