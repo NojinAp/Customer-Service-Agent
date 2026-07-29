@@ -76,6 +76,8 @@ Customer-Service-Agent/
 ├── README.md
 ├── data/
 │   └── generate_data.py        # Synthetic data generator
+│   └── shipments.csv           # Shipments sample data
+│   └── orders.csv              # Orders sample data
 ├── lambda/
 │   ├── get_order_status.py     # Lambda: order lookup tool
 │   └── get_shipment_update.py  # Lambda: shipment tracking tool
