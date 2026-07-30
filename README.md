@@ -1,6 +1,6 @@
 # Customer Service Agent
 
-AI-powered customer service agent for order and shipment lookups, built with AWS Bedrock (Claude Haiku 4.5), Lambda, S3, and Athena. Uses Amazon Bedrock Agents to enable natural language querying of order data - modeled after real retail operations at one of the companies I worked for.
+AI-powered customer service agent for order and shipment lookups, built with AWS Bedrock (Claude Haiku 4.5), Lambda, S3, and Athena - exposed via an MCP server so any MCP-compatible client (Claude Desktop, etc.) can query it in natural language. Modeled after real retail operations at a company I worked for.
 
 ---
 
@@ -8,7 +8,7 @@ AI-powered customer service agent for order and shipment lookups, built with AWS
 
 Customer service reps at retail companies spend a significant portion of their day navigating multiple systems to answer basic questions: *Where is this order? What's the tracking status? When will it arrive?* At this specific company, this meant manually querying Dynamics 365 F&O across order and shipment modules for every customer inquiry.
 
-This project replaces that workflow with a natural language agent. A CS rep types a question in plain English, and the agent retrieves the answer directly from the data; no SQL, no system navigation required.
+This project replaces that workflow with a natural language agent. A CS rep types a question in plain English, and the agent retrieves the answer directly from the data - no SQL, no system navigation required.
 
 ---
 
@@ -16,6 +16,9 @@ This project replaces that workflow with a natural language agent. A CS rep type
 
 ```
 CS Rep (natural language question)
+            │
+            ▼
+     MCP Server (stdio)
             │
             ▼
 Amazon Bedrock Agent (Claude Haiku 4.5)
@@ -35,6 +38,7 @@ get_order_status  get_shipment_update
 ```
 
 **Services used:**
+- **MCP Server** - stdio server that exposes the Bedrock agent as a tool to any MCP-compatible client
 - **Amazon S3** - stores synthetic order and shipment datasets
 - **Amazon Athena** - serverless SQL queries directly on S3 data
 - **AWS Lambda** - serverless functions that handle tool execution
@@ -52,8 +56,9 @@ Ask the agent questions like:
 - *"What is the status of order ORD-0042?"*
 - *"Has ORD-0015 shipped yet?"*
 - *"What carrier is handling order ORD-0023 and when will it arrive?"*
+- *"Find all orders for James Lee"*
 
-The agent decides which tools to call, retrieves the data, and returns a clear, professional response; without the rep ever touching a database.
+The agent decides which tools to call, retrieves the data, and returns a clear, professional response - without the rep ever touching a database.
 
 ---
 
@@ -65,7 +70,7 @@ Synthetic dataset of 100 orders and 37 shipments generated to mirror D365 F&O da
 
 **Shipments table:** shipment_id, order_id, carrier, tracking_number, ship_date, estimated_delivery, status
 
-Data is stored as CSV in S3 and queried via Athena; no database server required.
+Data is stored as CSV in S3 and queried via Athena - no database server required.
 
 ---
 
@@ -74,12 +79,13 @@ Data is stored as CSV in S3 and queried via Athena; no database server required.
 ```
 Customer-Service-Agent/
 ├── README.md
+├── mcp_server.py               # MCP server - exposes Bedrock agent via stdio
 ├── data/
-│   └── generate_data.py        # Synthetic data generator
-│   └── shipments.csv           # Shipments sample data
-│   └── orders.csv              # Orders sample data
+│   ├── generate_data.py        # Synthetic data generator
+│   ├── orders.csv              # Sample orders data
+│   └── shipments.csv           # Sample shipments data
 ├── lambda/
-│   ├── get_order_status.py     # Lambda: order lookup tool
+│   ├── get_order_status.py     # Lambda: order and customer lookup tool
 │   └── get_shipment_update.py  # Lambda: shipment tracking tool
 └── athena/
     └── setup.sql               # Athena database and table setup
@@ -91,8 +97,9 @@ Customer-Service-Agent/
 
 ### Prerequisites
 - AWS account with Bedrock access (Claude Haiku 4.5 via AWS Marketplace)
-- Python 3.12+
+- Python 3.11+
 - AWS CLI configured
+- Claude Desktop (to connect via MCP)
 
 ### 1. Generate synthetic data
 ```bash
@@ -108,6 +115,7 @@ Run the SQL in `athena/setup.sql` in the Athena query editor, pointing to your S
 - Create two Lambda functions in us-east-1 (Python 3.12)
 - Attach an IAM role with S3, Athena, Bedrock, and CloudWatch permissions
 - Deploy `lambda/get_order_status.py` and `lambda/get_shipment_update.py`
+- Add resource-based policy on each Lambda allowing Bedrock agent to invoke it
 
 ### 4. Create Bedrock Agent
 - Region: us-east-1
@@ -115,11 +123,33 @@ Run the SQL in `athena/setup.sql` in the Athena query editor, pointing to your S
 - Add two action groups pointing to the Lambda functions
 - Grant the Bedrock execution role `bedrock:InvokeModel` and inference profile permissions
 
+### 5. Run the MCP server
+```bash
+pip install mcp==1.3.0 boto3
+python mcp_server.py
+```
+
+### 6. Connect to Claude Desktop
+Add to `%APPDATA%\Claude\claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "canadagoose-cs-agent": {
+      "command": "python",
+      "args": ["path/to/mcp_server.py"]
+    }
+  }
+}
+```
+
+Restart Claude Desktop - the `query_customer_service` tool will appear under Connectors.
+
 ---
 
 ## Challenges & Lessons Learned
 
-This project involved more AWS configuration than code, which turned out to be the real learning.
+This project involved more AWS configuration than code - which turned out to be the real learning.
 
 **Region availability**
 Bedrock Agents with newer Anthropic models only works reliably in us-east-1. Always check regional service availability before starting infrastructure work.
@@ -128,7 +158,10 @@ Bedrock Agents with newer Anthropic models only works reliably in us-east-1. Alw
 Bedrock Agents, Lambda, and Athena each require their own trust relationships and permission boundaries. The Bedrock execution role needs explicit `bedrock:InvokeModel` permissions and cross-region inference profile access - neither is attached by default. Debugging 403s across three services made IAM fundamentals very concrete.
 
 **Lambda response format**
-Bedrock Agents expects a specific response envelope from Lambda functions - `messageVersion`, `actionGroup`, `functionResponse` - that differs from standard Lambda invocation responses. The agent fails if this format is wrong. Reading the Bedrock documentation carefully and inspecting the agent trace resolved this.
+Bedrock Agents expects a specific response envelope from Lambda functions - `messageVersion`, `actionGroup`, `functionResponse` - that differs from standard Lambda invocation responses. The agent fails if this format is wrong.
 
 **AWS Marketplace model subscriptions**
 Newer Anthropic models on Bedrock require an AWS Marketplace subscription even for personal accounts. This wasn't obvious from the console and took time to diagnose. The error message points to IAM permissions, but the real fix is completing the Marketplace subscription flow.
+
+**MCP server API versioning**
+MCP 2.0.0 has a breaking API change from 1.x - `Server.list_tools()` decorator and `stdio_server` usage differ significantly. Pinning to `mcp==1.3.0` resolved compatibility issues.
