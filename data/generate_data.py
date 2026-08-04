@@ -5,21 +5,38 @@ from datetime import datetime, timedelta
 random.seed(42)
 
 PRODUCTS = [
-    "Expedition Parka", "Langford Parka", "Chilliwack Bomber",
-    "Hybridge Lite Jacket", "Snow Mantra Parka", "Freestyle Vest",
-    "Lodge Hoody", "Timber Shell Jacket"
+    {"name": "8oz Deli", "sku": "DR-508", "category": "Deli Containers"},
+    {"name": "12oz Deli", "sku": "DR-512", "category": "Deli Containers"},
+    {"name": "Deli Overcap Lid", "sku": "DR-ORL", "category": "Lids"},
+    {"name": "Deli Recessed Lid", "sku": "DR-RL", "category": "Lids"},
+    {"name": "12oz Rectangle", "sku": "CR-811", "category": "Rectangle Containers"},
+    {"name": "16oz Deli", "sku": "DR-516", "category": "Deli Containers"},
+    {"name": "16oz Rectangle", "sku": "CR-815", "category": "Rectangle Containers"},
+    {"name": "18oz Round", "sku": "CO-518", "category": "Round Containers"},
+    {"name": "24oz Round", "sku": "CO-624", "category": "Round Containers"},
+    {"name": "24oz Round Baseball", "sku": "CO-624-BAS", "category": "Specialty Containers"},
+    {"name": "24oz Round Basketball", "sku": "CO-624-BKT", "category": "Specialty Containers"},
+    {"name": "24oz Round Soccer", "sku": "CO-624-SOC", "category": "Specialty Containers"},
+    {"name": "28oz Rectangle", "sku": "CR-927", "category": "Rectangle Containers"},
+    {"name": "28oz Rectangle", "sku": "CR-928", "category": "Rectangle Containers"},
+    {"name": "28oz Rectangle 2-Compartment", "sku": "CR-M-2932", "category": "Rectangle Containers"},
 ]
 
 CUSTOMERS = [
-    ("C001", "Alice Martin"), ("C002", "James Lee"), ("C003", "Priya Sharma"),
-    ("C004", "Noah Brown"), ("C005", "Emma Wilson"), ("C006", "Liam Chen"),
-    ("C007", "Olivia Davis"), ("C008", "Ethan Moore"), ("C009", "Sophia Taylor"),
-    ("C010", "Lucas Anderson")
+    ("C001", "Fresh Farms Deli"),
+    ("C002", "Metro Grocery Co."),
+    ("C003", "Sunrise Catering"),
+    ("C004", "GreenLeaf Foods"),
+    ("C005", "Urban Meal Prep"),
+    ("C006", "Harvest Table"),
+    ("C007", "QuickBite Kitchens"),
+    ("C008", "Northside Deli"),
+    ("C009", "Pacific Foods Ltd."),
+    ("C010", "Central Market Group"),
 ]
 
 STATUSES = ["Processing", "Confirmed", "Shipped", "Delivered", "Cancelled"]
 CARRIERS = ["FedEx", "UPS", "DHL"]
-SHIP_STATUSES = ["In Transit", "Out for Delivery", "Delivered", "Delayed", "Pending"]
 
 def random_date(start, end):
     return start + timedelta(days=random.randint(0, (end - start).days))
@@ -31,15 +48,21 @@ end = datetime(2026, 7, 1)
 orders = []
 for i in range(1, 101):
     customer = random.choice(CUSTOMERS)
+    product = random.choice(PRODUCTS)
     order_date = random_date(start, end)
     status = random.choice(STATUSES)
+    quantity = random.randint(100, 5000)  # Bulk packaging orders
+    unit_price = round(random.uniform(0.05, 0.50), 3)  # Per unit price
     orders.append({
         "order_id": f"ORD-{i:04d}",
         "customer_id": customer[0],
         "customer_name": customer[1],
-        "product": random.choice(PRODUCTS),
-        "quantity": random.randint(1, 3),
-        "price": round(random.uniform(500, 1800), 2),
+        "product_name": product["name"],
+        "sku": product["sku"],
+        "category": product["category"],
+        "quantity": quantity,
+        "unit_price": unit_price,
+        "total_price": round(quantity * unit_price, 2),
         "order_date": order_date.strftime("%Y-%m-%d"),
         "status": status
     })

@@ -1,101 +1,101 @@
-order_id,customer_id,customer_name,product,quantity,price,order_date,status
-ORD-0001,C002,James Lee,Hybridge Lite Jacket,1,681.4,2025-01-26,Shipped
-ORD-0002,C002,James Lee,Lodge Hoody,1,538.74,2025-03-31,Cancelled
-ORD-0003,C004,Noah Brown,Expedition Parka,3,758.49,2025-08-27,Cancelled
-ORD-0004,C009,Sophia Taylor,Timber Shell Jacket,3,861.65,2026-03-06,Confirmed
-ORD-0005,C001,Alice Martin,Freestyle Vest,2,702.12,2025-06-13,Delivered
-ORD-0006,C006,Liam Chen,Lodge Hoody,1,966.67,2025-04-15,Processing
-ORD-0007,C006,Liam Chen,Timber Shell Jacket,3,662.27,2025-09-28,Processing
-ORD-0008,C007,Olivia Davis,Snow Mantra Parka,3,1304.08,2025-03-22,Cancelled
-ORD-0009,C006,Liam Chen,Expedition Parka,3,796.27,2025-07-16,Processing
-ORD-0010,C005,Emma Wilson,Langford Parka,2,861.37,2025-03-23,Confirmed
-ORD-0011,C006,Liam Chen,Freestyle Vest,1,1371.23,2025-06-16,Shipped
-ORD-0012,C002,James Lee,Hybridge Lite Jacket,1,1100.94,2025-06-25,Cancelled
-ORD-0013,C005,Emma Wilson,Expedition Parka,1,1568.34,2025-08-13,Shipped
-ORD-0014,C006,Liam Chen,Langford Parka,1,1687.08,2026-02-15,Shipped
-ORD-0015,C010,Lucas Anderson,Timber Shell Jacket,2,1650.09,2025-11-19,Confirmed
-ORD-0016,C008,Ethan Moore,Chilliwack Bomber,1,1468.49,2025-05-27,Shipped
-ORD-0017,C009,Sophia Taylor,Lodge Hoody,3,1019.22,2025-09-27,Cancelled
-ORD-0018,C004,Noah Brown,Timber Shell Jacket,1,1482.52,2025-05-22,Cancelled
-ORD-0019,C002,James Lee,Lodge Hoody,3,582.59,2025-06-06,Confirmed
-ORD-0020,C007,Olivia Davis,Snow Mantra Parka,3,1619.01,2026-04-25,Cancelled
-ORD-0021,C001,Alice Martin,Snow Mantra Parka,3,942.23,2025-04-28,Cancelled
-ORD-0022,C005,Emma Wilson,Timber Shell Jacket,1,1739.96,2026-03-22,Confirmed
-ORD-0023,C005,Emma Wilson,Langford Parka,3,887.98,2026-05-28,Confirmed
-ORD-0024,C009,Sophia Taylor,Freestyle Vest,1,1201.19,2025-07-23,Confirmed
-ORD-0025,C009,Sophia Taylor,Freestyle Vest,2,525.32,2025-01-01,Cancelled
-ORD-0026,C006,Liam Chen,Expedition Parka,1,1641.41,2025-11-11,Confirmed
-ORD-0027,C002,James Lee,Langford Parka,3,1495.58,2025-03-29,Delivered
-ORD-0028,C003,Priya Sharma,Chilliwack Bomber,2,1185.98,2026-05-02,Cancelled
-ORD-0029,C010,Lucas Anderson,Hybridge Lite Jacket,3,905.23,2026-03-10,Confirmed
-ORD-0030,C006,Liam Chen,Timber Shell Jacket,1,822.28,2026-03-25,Cancelled
-ORD-0031,C002,James Lee,Hybridge Lite Jacket,3,786.28,2025-12-13,Processing
-ORD-0032,C002,James Lee,Langford Parka,1,1617.53,2025-03-02,Confirmed
-ORD-0033,C002,James Lee,Snow Mantra Parka,3,1131.04,2026-06-11,Confirmed
-ORD-0034,C009,Sophia Taylor,Timber Shell Jacket,1,1520.01,2025-05-16,Cancelled
-ORD-0035,C007,Olivia Davis,Langford Parka,3,1060.37,2025-07-14,Processing
-ORD-0036,C007,Olivia Davis,Expedition Parka,3,1349.49,2026-02-25,Delivered
-ORD-0037,C002,James Lee,Freestyle Vest,1,823.25,2025-03-04,Delivered
-ORD-0038,C004,Noah Brown,Lodge Hoody,1,862.11,2026-04-05,Confirmed
-ORD-0039,C004,Noah Brown,Langford Parka,1,1347.79,2025-03-19,Delivered
-ORD-0040,C009,Sophia Taylor,Hybridge Lite Jacket,1,1028.34,2025-01-16,Processing
-ORD-0041,C008,Ethan Moore,Expedition Parka,1,992.67,2025-08-07,Delivered
-ORD-0042,C007,Olivia Davis,Snow Mantra Parka,2,1405.57,2025-09-29,Delivered
-ORD-0043,C009,Sophia Taylor,Hybridge Lite Jacket,2,783.01,2026-05-14,Confirmed
-ORD-0044,C001,Alice Martin,Expedition Parka,1,1259.43,2025-03-04,Shipped
-ORD-0045,C009,Sophia Taylor,Expedition Parka,3,604.14,2026-06-28,Confirmed
-ORD-0046,C003,Priya Sharma,Langford Parka,3,1620.36,2025-03-12,Cancelled
-ORD-0047,C007,Olivia Davis,Hybridge Lite Jacket,3,1272.87,2025-05-03,Cancelled
-ORD-0048,C010,Lucas Anderson,Freestyle Vest,2,765.54,2025-03-25,Delivered
-ORD-0049,C006,Liam Chen,Lodge Hoody,1,1373.2,2025-09-02,Shipped
-ORD-0050,C005,Emma Wilson,Langford Parka,1,1095.77,2026-04-14,Shipped
-ORD-0051,C010,Lucas Anderson,Hybridge Lite Jacket,3,844.76,2025-04-13,Processing
-ORD-0052,C006,Liam Chen,Freestyle Vest,2,705.07,2025-03-12,Confirmed
-ORD-0053,C009,Sophia Taylor,Expedition Parka,3,1562.24,2025-11-06,Cancelled
-ORD-0054,C005,Emma Wilson,Snow Mantra Parka,1,1656.63,2025-04-17,Confirmed
-ORD-0055,C009,Sophia Taylor,Snow Mantra Parka,3,773.82,2025-06-09,Shipped
-ORD-0056,C006,Liam Chen,Timber Shell Jacket,2,1676.94,2025-07-28,Shipped
-ORD-0057,C001,Alice Martin,Snow Mantra Parka,1,504.61,2025-04-05,Delivered
-ORD-0058,C003,Priya Sharma,Timber Shell Jacket,3,1417.37,2025-09-26,Confirmed
-ORD-0059,C009,Sophia Taylor,Langford Parka,3,1675.11,2025-01-10,Processing
-ORD-0060,C009,Sophia Taylor,Chilliwack Bomber,2,665.68,2025-02-06,Shipped
-ORD-0061,C005,Emma Wilson,Freestyle Vest,1,1386.69,2026-01-09,Processing
-ORD-0062,C002,James Lee,Lodge Hoody,3,1474.32,2025-12-29,Cancelled
-ORD-0063,C004,Noah Brown,Lodge Hoody,1,733.17,2025-06-16,Confirmed
-ORD-0064,C006,Liam Chen,Snow Mantra Parka,1,1523.59,2026-02-26,Confirmed
-ORD-0065,C002,James Lee,Timber Shell Jacket,1,759.44,2026-01-27,Processing
-ORD-0066,C008,Ethan Moore,Hybridge Lite Jacket,1,530.76,2025-12-25,Shipped
-ORD-0067,C004,Noah Brown,Snow Mantra Parka,1,1756.96,2026-02-13,Shipped
-ORD-0068,C005,Emma Wilson,Lodge Hoody,3,1775.49,2025-12-26,Cancelled
-ORD-0069,C009,Sophia Taylor,Langford Parka,2,732.14,2025-12-06,Processing
-ORD-0070,C005,Emma Wilson,Lodge Hoody,2,1447.11,2025-02-09,Processing
-ORD-0071,C006,Liam Chen,Langford Parka,2,1669.36,2026-03-23,Cancelled
-ORD-0072,C004,Noah Brown,Lodge Hoody,1,1175.9,2025-09-18,Processing
-ORD-0073,C009,Sophia Taylor,Lodge Hoody,1,1733.54,2025-07-21,Shipped
-ORD-0074,C006,Liam Chen,Snow Mantra Parka,3,902.07,2025-11-18,Processing
-ORD-0075,C007,Olivia Davis,Snow Mantra Parka,3,665.47,2025-12-01,Delivered
-ORD-0076,C007,Olivia Davis,Snow Mantra Parka,2,1212.32,2026-01-24,Confirmed
-ORD-0077,C001,Alice Martin,Hybridge Lite Jacket,2,1521.49,2025-11-08,Shipped
-ORD-0078,C010,Lucas Anderson,Timber Shell Jacket,2,1378.32,2025-11-26,Delivered
-ORD-0079,C009,Sophia Taylor,Langford Parka,2,1170.09,2026-04-30,Confirmed
-ORD-0080,C010,Lucas Anderson,Hybridge Lite Jacket,3,903.55,2025-12-10,Processing
-ORD-0081,C004,Noah Brown,Expedition Parka,1,1779.12,2025-05-31,Processing
-ORD-0082,C010,Lucas Anderson,Lodge Hoody,3,1248.37,2025-03-16,Delivered
-ORD-0083,C007,Olivia Davis,Hybridge Lite Jacket,1,1352.88,2026-05-22,Delivered
-ORD-0084,C001,Alice Martin,Hybridge Lite Jacket,1,1545.34,2025-04-20,Delivered
-ORD-0085,C009,Sophia Taylor,Hybridge Lite Jacket,1,1093.4,2026-04-21,Processing
-ORD-0086,C008,Ethan Moore,Freestyle Vest,2,1296.45,2026-06-28,Cancelled
-ORD-0087,C009,Sophia Taylor,Timber Shell Jacket,1,1466.75,2026-03-13,Cancelled
-ORD-0088,C008,Ethan Moore,Hybridge Lite Jacket,3,860.5,2026-04-06,Shipped
-ORD-0089,C009,Sophia Taylor,Snow Mantra Parka,2,600.73,2026-05-12,Confirmed
-ORD-0090,C005,Emma Wilson,Freestyle Vest,2,1660.93,2025-08-29,Shipped
-ORD-0091,C002,James Lee,Hybridge Lite Jacket,2,1402.13,2025-05-22,Confirmed
-ORD-0092,C004,Noah Brown,Lodge Hoody,2,1205.39,2025-03-07,Delivered
-ORD-0093,C007,Olivia Davis,Lodge Hoody,2,1676.29,2025-03-05,Confirmed
-ORD-0094,C010,Lucas Anderson,Lodge Hoody,2,507.66,2025-01-21,Cancelled
-ORD-0095,C006,Liam Chen,Lodge Hoody,3,1471.77,2025-11-02,Delivered
-ORD-0096,C009,Sophia Taylor,Hybridge Lite Jacket,2,1066.59,2025-08-14,Delivered
-ORD-0097,C001,Alice Martin,Lodge Hoody,3,714.56,2026-02-03,Shipped
-ORD-0098,C008,Ethan Moore,Expedition Parka,2,1269.46,2025-05-11,Cancelled
-ORD-0099,C001,Alice Martin,Chilliwack Bomber,2,736.25,2025-03-27,Delivered
-ORD-0100,C005,Emma Wilson,Hybridge Lite Jacket,2,924.9,2026-01-24,Shipped
+order_id,customer_id,customer_name,product_name,sku,category,quantity,unit_price,total_price,order_date,status
+ORD-0001,C002,Metro Grocery Co.,8oz Deli,DR-508,Deli Containers,1928,0.113,217.86,2025-10-09,Confirmed
+ORD-0002,C002,Metro Grocery Co.,24oz Round Basketball,CO-624-BKT,Specialty Containers,3556,0.064,227.58,2025-03-31,Cancelled
+ORD-0003,C002,Metro Grocery Co.,Deli Recessed Lid,DR-RL,Lids,317,0.303,96.05,2025-08-27,Cancelled
+ORD-0004,C009,Pacific Foods Ltd.,16oz Rectangle,CR-815,Rectangle Containers,4927,0.175,862.22,2025-08-14,Delivered
+ORD-0005,C001,Fresh Farms Deli,28oz Rectangle,CR-927,Rectangle Containers,2887,0.175,505.22,2025-06-13,Delivered
+ORD-0006,C004,GreenLeaf Foods,28oz Rectangle,CR-927,Rectangle Containers,859,0.221,189.84,2025-12-11,Processing
+ORD-0007,C006,Harvest Table,28oz Rectangle,CR-928,Rectangle Containers,2266,0.413,935.86,2025-12-19,Cancelled
+ORD-0008,C008,Northside Deli,24oz Round,CO-624,Round Containers,745,0.298,222.01,2025-05-08,Delivered
+ORD-0009,C010,Central Market Group,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,1675,0.367,614.73,2026-01-06,Cancelled
+ORD-0010,C001,Fresh Farms Deli,24oz Round Basketball,CO-624-BKT,Specialty Containers,753,0.435,327.56,2025-08-22,Shipped
+ORD-0011,C002,Metro Grocery Co.,16oz Rectangle,CR-815,Rectangle Containers,3088,0.123,379.82,2025-10-12,Delivered
+ORD-0012,C006,Harvest Table,Deli Recessed Lid,DR-RL,Lids,1501,0.29,435.29,2025-10-01,Processing
+ORD-0013,C004,GreenLeaf Foods,Deli Overcap Lid,DR-ORL,Lids,2311,0.495,1143.94,2026-04-19,Delivered
+ORD-0014,C009,Pacific Foods Ltd.,Deli Recessed Lid,DR-RL,Lids,1976,0.42,829.92,2025-11-29,Processing
+ORD-0015,C006,Harvest Table,16oz Rectangle,CR-815,Rectangle Containers,1828,0.461,842.71,2025-10-02,Processing
+ORD-0016,C010,Central Market Group,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,4189,0.228,955.09,2025-11-19,Confirmed
+ORD-0017,C008,Northside Deli,Deli Overcap Lid,DR-ORL,Lids,2120,0.385,816.2,2025-09-29,Confirmed
+ORD-0018,C009,Pacific Foods Ltd.,12oz Rectangle,CR-811,Rectangle Containers,3371,0.213,718.02,2026-03-15,Cancelled
+ORD-0019,C003,Sunrise Catering,24oz Round,CO-624,Round Containers,485,0.437,211.94,2026-05-21,Processing
+ORD-0020,C003,Sunrise Catering,24oz Round Basketball,CO-624-BKT,Specialty Containers,4985,0.079,393.81,2025-06-13,Delivered
+ORD-0021,C007,QuickBite Kitchens,24oz Round Baseball,CO-624-BAS,Specialty Containers,2159,0.487,1051.43,2026-04-25,Cancelled
+ORD-0022,C001,Fresh Farms Deli,24oz Round Basketball,CO-624-BKT,Specialty Containers,2285,0.396,904.86,2025-04-28,Cancelled
+ORD-0023,C006,Harvest Table,12oz Deli,DR-512,Deli Containers,1395,0.254,354.33,2025-10-28,Delivered
+ORD-0024,C005,Urban Meal Prep,24oz Round,CO-624,Round Containers,971,0.442,429.18,2025-07-02,Cancelled
+ORD-0025,C005,Urban Meal Prep,28oz Rectangle,CR-928,Rectangle Containers,1729,0.119,205.75,2026-06-04,Cancelled
+ORD-0026,C003,Sunrise Catering,24oz Round,CO-624,Round Containers,2755,0.27,743.85,2026-06-28,Processing
+ORD-0027,C002,Metro Grocery Co.,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,2061,0.076,156.64,2026-01-07,Shipped
+ORD-0028,C010,Central Market Group,12oz Deli,DR-512,Deli Containers,666,0.49,326.34,2025-03-29,Delivered
+ORD-0029,C009,Pacific Foods Ltd.,28oz Rectangle,CR-927,Rectangle Containers,3993,0.476,1900.67,2025-05-09,Confirmed
+ORD-0030,C003,Sunrise Catering,12oz Rectangle,CR-811,Rectangle Containers,3566,0.484,1725.94,2026-06-25,Cancelled
+ORD-0031,C009,Pacific Foods Ltd.,28oz Rectangle,CR-927,Rectangle Containers,3368,0.498,1677.26,2025-07-25,Shipped
+ORD-0032,C006,Harvest Table,18oz Round,CO-518,Round Containers,1091,0.162,176.74,2026-06-14,Delivered
+ORD-0033,C002,Metro Grocery Co.,16oz Deli,DR-516,Deli Containers,4637,0.154,714.1,2025-01-22,Cancelled
+ORD-0034,C004,GreenLeaf Foods,8oz Deli,DR-508,Deli Containers,1975,0.08,158.0,2025-03-14,Processing
+ORD-0035,C001,Fresh Farms Deli,28oz Rectangle,CR-928,Rectangle Containers,4311,0.157,676.83,2025-12-05,Processing
+ORD-0036,C008,Northside Deli,Deli Recessed Lid,DR-RL,Lids,4820,0.263,1267.66,2025-05-16,Cancelled
+ORD-0037,C008,Northside Deli,28oz Rectangle,CR-927,Rectangle Containers,872,0.094,81.97,2026-02-21,Confirmed
+ORD-0038,C007,QuickBite Kitchens,16oz Deli,DR-516,Deli Containers,3925,0.439,1723.08,2026-03-10,Delivered
+ORD-0039,C001,Fresh Farms Deli,24oz Round Basketball,CO-624-BKT,Specialty Containers,3398,0.378,1284.44,2025-04-11,Processing
+ORD-0040,C002,Metro Grocery Co.,Deli Recessed Lid,DR-RL,Lids,4493,0.252,1132.24,2025-07-16,Confirmed
+ORD-0041,C007,QuickBite Kitchens,Deli Overcap Lid,DR-ORL,Lids,2146,0.444,952.82,2025-10-13,Delivered
+ORD-0042,C002,Metro Grocery Co.,18oz Round,CO-518,Round Containers,4528,0.426,1928.93,2025-04-11,Processing
+ORD-0043,C002,Metro Grocery Co.,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,3429,0.269,922.4,2025-08-31,Confirmed
+ORD-0044,C004,GreenLeaf Foods,28oz Rectangle,CR-928,Rectangle Containers,1448,0.221,320.01,2026-02-15,Processing
+ORD-0045,C007,QuickBite Kitchens,12oz Rectangle,CR-811,Rectangle Containers,3565,0.363,1294.1,2026-04-11,Shipped
+ORD-0046,C009,Pacific Foods Ltd.,24oz Round Basketball,CO-624-BKT,Specialty Containers,1655,0.184,304.52,2026-05-14,Confirmed
+ORD-0047,C001,Fresh Farms Deli,24oz Round Baseball,CO-624-BAS,Specialty Containers,568,0.073,41.46,2025-03-04,Shipped
+ORD-0048,C008,Northside Deli,24oz Round,CO-624,Round Containers,565,0.482,272.33,2026-06-28,Confirmed
+ORD-0049,C002,Metro Grocery Co.,28oz Rectangle,CR-928,Rectangle Containers,4974,0.081,402.89,2025-07-10,Processing
+ORD-0050,C004,GreenLeaf Foods,16oz Rectangle,CR-815,Rectangle Containers,2116,0.311,658.08,2025-05-03,Cancelled
+ORD-0051,C001,Fresh Farms Deli,24oz Round Baseball,CO-624-BAS,Specialty Containers,4881,0.304,1483.82,2025-03-25,Delivered
+ORD-0052,C006,Harvest Table,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,2673,0.157,419.66,2025-09-25,Confirmed
+ORD-0053,C007,QuickBite Kitchens,Deli Overcap Lid,DR-ORL,Lids,2690,0.468,1258.92,2025-11-04,Delivered
+ORD-0054,C002,Metro Grocery Co.,8oz Deli,DR-508,Deli Containers,4712,0.498,2346.58,2026-04-15,Cancelled
+ORD-0055,C002,Metro Grocery Co.,24oz Round,CO-624,Round Containers,2272,0.11,249.92,2025-08-07,Cancelled
+ORD-0056,C006,Harvest Table,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,3127,0.178,556.61,2025-03-12,Confirmed
+ORD-0057,C008,Northside Deli,28oz Rectangle,CR-928,Rectangle Containers,4433,0.054,239.38,2025-11-06,Cancelled
+ORD-0058,C009,Pacific Foods Ltd.,12oz Rectangle,CR-811,Rectangle Containers,2266,0.102,231.13,2025-04-17,Confirmed
+ORD-0059,C002,Metro Grocery Co.,24oz Round Soccer,CO-624-SOC,Specialty Containers,2408,0.322,775.38,2025-06-09,Shipped
+ORD-0060,C006,Harvest Table,Deli Recessed Lid,DR-RL,Lids,4102,0.163,668.63,2025-09-28,Cancelled
+ORD-0061,C001,Fresh Farms Deli,12oz Deli,DR-512,Deli Containers,461,0.052,23.97,2026-03-10,Shipped
+ORD-0062,C003,Sunrise Catering,24oz Round Basketball,CO-624-BKT,Specialty Containers,3719,0.298,1108.26,2025-09-26,Confirmed
+ORD-0063,C007,QuickBite Kitchens,24oz Round,CO-624,Round Containers,716,0.475,340.1,2025-01-10,Processing
+ORD-0064,C003,Sunrise Catering,24oz Round,CO-624,Round Containers,4871,0.299,1456.43,2025-02-06,Shipped
+ORD-0065,C007,QuickBite Kitchens,Deli Overcap Lid,DR-ORL,Lids,3087,0.455,1404.59,2025-02-12,Shipped
+ORD-0066,C001,Fresh Farms Deli,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,2144,0.35,750.4,2026-01-02,Confirmed
+ORD-0067,C006,Harvest Table,28oz Rectangle,CR-927,Rectangle Containers,1366,0.467,637.92,2026-02-21,Cancelled
+ORD-0068,C004,GreenLeaf Foods,28oz Rectangle,CR-928,Rectangle Containers,3477,0.061,212.1,2025-06-16,Confirmed
+ORD-0069,C006,Harvest Table,28oz Rectangle,CR-927,Rectangle Containers,2285,0.122,278.77,2026-02-26,Confirmed
+ORD-0070,C002,Metro Grocery Co.,16oz Rectangle,CR-815,Rectangle Containers,1922,0.14,269.08,2025-02-09,Delivered
+ORD-0071,C008,Northside Deli,16oz Deli,DR-516,Deli Containers,1926,0.061,117.49,2025-11-09,Confirmed
+ORD-0072,C004,GreenLeaf Foods,16oz Rectangle,CR-815,Rectangle Containers,668,0.485,323.98,2025-12-03,Shipped
+ORD-0073,C005,Urban Meal Prep,16oz Deli,DR-516,Deli Containers,4492,0.199,893.91,2026-06-06,Delivered
+ORD-0074,C001,Fresh Farms Deli,12oz Deli,DR-512,Deli Containers,4856,0.483,2345.45,2025-09-25,Confirmed
+ORD-0075,C005,Urban Meal Prep,8oz Deli,DR-508,Deli Containers,3659,0.206,753.75,2025-04-22,Cancelled
+ORD-0076,C006,Harvest Table,16oz Rectangle,CR-815,Rectangle Containers,3255,0.455,1481.03,2026-06-08,Processing
+ORD-0077,C004,GreenLeaf Foods,12oz Rectangle,CR-811,Rectangle Containers,113,0.284,32.09,2025-02-15,Delivered
+ORD-0078,C009,Pacific Foods Ltd.,24oz Round Basketball,CO-624-BKT,Specialty Containers,3633,0.081,294.27,2025-07-21,Shipped
+ORD-0079,C006,Harvest Table,24oz Round Baseball,CO-624-BAS,Specialty Containers,2560,0.278,711.68,2025-11-18,Processing
+ORD-0080,C007,QuickBite Kitchens,16oz Deli,DR-516,Deli Containers,4641,0.107,496.59,2026-02-17,Shipped
+ORD-0081,C007,QuickBite Kitchens,24oz Round Basketball,CO-624-BKT,Specialty Containers,4762,0.185,880.97,2026-01-24,Confirmed
+ORD-0082,C009,Pacific Foods Ltd.,28oz Rectangle,CR-928,Rectangle Containers,2450,0.145,355.25,2025-01-01,Shipped
+ORD-0083,C010,Central Market Group,24oz Round Baseball,CO-624-BAS,Specialty Containers,3719,0.249,926.03,2025-11-26,Delivered
+ORD-0084,C004,GreenLeaf Foods,24oz Round,CO-624,Round Containers,794,0.178,141.33,2026-04-30,Confirmed
+ORD-0085,C010,Central Market Group,16oz Deli,DR-516,Deli Containers,2642,0.151,398.94,2025-04-06,Confirmed
+ORD-0086,C004,GreenLeaf Foods,Deli Overcap Lid,DR-ORL,Lids,2105,0.493,1037.77,2025-01-26,Processing
+ORD-0087,C010,Central Market Group,28oz Rectangle,CR-928,Rectangle Containers,3495,0.449,1569.26,2025-03-16,Delivered
+ORD-0088,C010,Central Market Group,Deli Recessed Lid,DR-RL,Lids,3373,0.16,539.68,2026-01-29,Delivered
+ORD-0089,C001,Fresh Farms Deli,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,1892,0.129,244.07,2025-04-20,Delivered
+ORD-0090,C009,Pacific Foods Ltd.,18oz Round,CO-518,Round Containers,2141,0.463,991.28,2025-02-21,Cancelled
+ORD-0091,C002,Metro Grocery Co.,18oz Round,CO-518,Round Containers,4451,0.495,2203.24,2025-05-17,Delivered
+ORD-0092,C010,Central Market Group,16oz Deli,DR-516,Deli Containers,4235,0.242,1024.87,2026-03-30,Cancelled
+ORD-0093,C009,Pacific Foods Ltd.,18oz Round,CO-518,Round Containers,3786,0.167,632.26,2025-06-12,Delivered
+ORD-0094,C004,GreenLeaf Foods,28oz Rectangle,CR-928,Rectangle Containers,4069,0.332,1350.91,2025-10-11,Cancelled
+ORD-0095,C005,Urban Meal Prep,18oz Round,CO-518,Round Containers,2020,0.172,347.44,2025-03-21,Shipped
+ORD-0096,C006,Harvest Table,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,1335,0.154,205.59,2025-03-24,Confirmed
+ORD-0097,C003,Sunrise Catering,24oz Round Soccer,CO-624-SOC,Specialty Containers,3498,0.233,815.03,2025-08-08,Processing
+ORD-0098,C009,Pacific Foods Ltd.,18oz Round,CO-518,Round Containers,1794,0.425,762.45,2026-03-02,Processing
+ORD-0099,C007,QuickBite Kitchens,28oz Rectangle 2-Compartment,CR-M-2932,Rectangle Containers,3216,0.265,852.24,2025-01-21,Cancelled
+ORD-0100,C006,Harvest Table,12oz Rectangle,CR-811,Rectangle Containers,4509,0.386,1740.47,2026-02-04,Delivered
