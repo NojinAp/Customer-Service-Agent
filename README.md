@@ -10,6 +10,8 @@ Customer service reps at manufacturing companies spend a significant portion of 
 
 This project replaces that workflow with a natural language agent. A CS rep types a question in plain English, and the agent retrieves the answer directly from the data - no SQL, no system navigation required.
 
+![Chat Example](assets/chat_example.png)
+
 ---
 
 ## Architecture
